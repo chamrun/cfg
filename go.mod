@@ -1,4 +1,4 @@
-module cfg
+module github.com/chamrun/cfg/v2
 
 go 1.18
 
