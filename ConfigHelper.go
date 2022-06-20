@@ -18,4 +18,5 @@ func GetConfig(section string, key string) (value string) {
 	lowerKey := strings.ToLower(key)
 
 	return cfg.Section(upperSection).Key(lowerKey).String()
+
 }
